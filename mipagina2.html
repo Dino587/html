@@ -5,17 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        div {
+            width: 100px; 
+            float: left;
+        }
+        div.cabecera{
+            background-color:red;
+            border: 15px solid red;
+            width: 100%;
+        }
+        div.menú{
+            background-color:yellow;
+            width: 30%;
+        }
+        div.principal{
+            background-color:red;  
+            width: 70%;
+        }
+    </style>
 </head>
 <body>
-    <div style="float: left; background-color:red;border: 15px solid red;">
+    <div class="cabecera">
         <h1>Esto es una capa</h1>
         <p>esta capa va a ser roja</p>
     </div>
-    <div style="float: left; background-color:yellow;border: 15px solid yellow;">
+    <div class="menú">
         <h1>Esto es otra capa</h1>
         <p>esta capa va a ser amarilla</p>
     </div>
-    <div style="float: left; background-color:red;border: 15px solid red;">
+    <div class="principal" >
         <h1>Esto la tercera capa</h1>
         <p>esta capa va a ser roja</p>
     </div>
